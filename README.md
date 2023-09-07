@@ -12,4 +12,4 @@ Raul Vilhora Cardoso Matias - 32267274
 
 <h4>O que acontece se o programa anterior escreve-se as mensagens para sys.stdout, usando print, ao invés de para sys.stderr?</h4>
 <br>
-<p>A saída vai se misturar com a saída do programa anterior</p>
+<p>As saídas seriam categorizadas como saída normal ao invés de mensagens de erro e isso causaria um erro para distinguir as duas saídas ( programa anterior e atual ).</p>
